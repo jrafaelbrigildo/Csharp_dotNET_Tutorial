@@ -4,8 +4,10 @@ namespace BasicExercises
 {
     class Program
     {
+        //Main function
         public static void Main(string[] args)
         {
+            //instance of the class named BasicExercise
             BasicExercise basicExercise = new BasicExercise();
             basicExercise.helloWorld();
             basicExercise.printName();
@@ -13,9 +15,11 @@ namespace BasicExercises
         }
     }
 }
+    //Defining class named BasicExercise
     public class BasicExercise
-    {
-       public void helloWorld()
+{
+    //methods
+    public void helloWorld()
         {
             var message = "Hello World!";
             Console.WriteLine(message);
